@@ -1,0 +1,100 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Naveen Varma",
+      "bio": "Frontend Developer | React Enthusiast"
+    },
+    {
+      "id": 2,
+      "name": "Siva",
+      "bio": "UI/UX Designer"
+    },
+    {
+      "id": 3,
+      "name": "Chandra",
+      "bio": "Full Stack Developer"
+    },
+    {
+      "id": 4,
+      "name": "Surrendra",
+      "bio": "Software Engineer"
+    },
+    {
+      "id": 5,
+      "name": "Hari",
+      "bio": "JavaScript Developer"
+    }
+  ],
+
+  "posts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "content": "Learning React is fun! Hooks make component logic much cleaner.",
+      "likes": 12,
+      "comments": [
+        { "id": 1, "text": "Absolutely!" },
+        { "id": 2, "text": "Keep learning 🚀" }
+      ]
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "content": "Design is not just about colors. It's about solving user problems.",
+      "likes": 18,
+      "comments": [
+        { "id": 1, "text": "Well said!" },
+        { "id": 2, "text": "Completely agree." }
+      ]
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "content": "Today I built my first MERN application with authentication.",
+      "likes": 25,
+      "comments": [
+        { "id": 1, "text": "Nice work!" },
+        { "id": 2, "text": "What's next?" },
+        { "id": 3, "text": "Keep it up!" }
+      ]
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "content": "TypeScript saves so much debugging time once you get used to it.",
+      "likes": 20,
+      "comments": [
+        { "id": 1, "text": "Couldn't agree more." }
+      ]
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "content": "Finally understood Zustand. It's much simpler than I expected.",
+      "likes": 31,
+      "comments": [
+        { "id": 1, "text": "Zustand is awesome!" },
+        { "id": 2, "text": "Great choice for small projects." }
+      ]
+    },
+    {
+      "id": 6,
+      "userId": 1,
+      "content": "Practicing React Router today. Dynamic routes are really useful.",
+      "likes": 9,
+      "comments": [
+        { "id": 1, "text": "Good luck!" }
+      ]
+    },
+    {
+      "id": 7,
+      "userId": 3,
+      "content": "Completed another coding challenge today.",
+      "likes": 14,
+      "comments": [
+        { "id": 1, "text": "Congratulations!" }
+      ]
+    }
+  ]
+}
